@@ -6,8 +6,7 @@ Authors: Chengyang Yan, Donald G. Dansereau
 
 Project Page: 
 
-## Setup
-### Simulator 
+## Simulator Setup
 The simulator that procedurally generates virtual indoor environments is placed in the ProceduralGeneration folder. To build this project, the following steps need to be performed:
 1. [**Download Unreal Engine 5.3 from the official website**](https://www.unrealengine.com/en-US/download)
 2. Download the ProceduralGeneration folder of this repo to a perferred disk location
@@ -23,7 +22,7 @@ The simulator that procedurally generates virtual indoor environments is placed 
 4. Download the [**TCP Socket Plugin**](https://github.com/CodeSpartan/UE4TcpSocketPlugin) to communicate with Python programs
 5. Run the .unproject file or build from source code by generating project files with this file.
 
-### Camera Optimization
+## Camera Optimization
 The codes that optimize the camera are placed in the CameraOptimization folder. To start the camera optimization, first click Run button in the Unreal Engine Editor and then run GeneticAlgorithmMain.py.
 
 ## Citation
