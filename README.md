@@ -4,7 +4,7 @@ TaCOS optimizes camera designs for specific tasks with a simulator built with Un
 
 Authors: Chengyang Yan, Donald G. Dansereau
 
-Project Page: 
+Project Page: https://roboticimaging.org/Projects/TaCOS/
 
 ## Simulator Setup
 The simulator that procedurally generates virtual indoor environments is placed in the ProceduralGeneration folder. To build this project, the following steps need to be performed:
