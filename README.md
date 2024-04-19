@@ -28,5 +28,12 @@ The codes that optimize the camera are placed in the CameraOptimization folder. 
 ## Citation
 If you find our work useful, please cite the below paper:
 ```
-
+@article{yan2024tacos,
+  title = {TaCOS: Task-Specific Camera Optimization with Simulation},
+  author = {Chengyang Yan and Donald G. Dansereau},
+  journal = {arXiv preprint arXiv:2404.11031},
+  URL = {https://arxiv.org/abs/2404.11031},
+  year = {2024},
+  month = apr
+}
 ```
