@@ -19,7 +19,7 @@ The simulator that procedurally generates virtual indoor environments is placed 
    * [**Chairs & Tables Pack 1**](https://www.unrealengine.com/marketplace/en-US/product/twinmotion-chairs-tables-pack-1)
    * [**High Tech Pack 1**](https://www.unrealengine.com/marketplace/en-US/product/twinmotion-high-tech-pack-1)
    * [**Storages Pack 1**](https://www.unrealengine.com/marketplace/en-US/product/twinmotion-storages-pack-1)
-   Note: To use an asset for object detection, move its origin to the centre of the of the object.
+   Note: To use an asset for object detection, move its origin to the centre of the object if it is not at the centre.
 4. Download the [**TCP Socket Plugin**](https://github.com/CodeSpartan/UE4TcpSocketPlugin) to communicate with Python programs
 5. Run the .unproject file or build from source code by generating project files with this file.
 
