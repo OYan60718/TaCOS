@@ -10,7 +10,7 @@ Project Page: https://roboticimaging.org/Projects/TaCOS/
 The simulator that procedurally generates virtual indoor environments is placed in the ProceduralGeneration folder. To build this project, the following steps need to be performed:
 1. Download [**Unreal Engine 5.3**](https://www.unrealengine.com/en-US/download) from the official website
 2. Download the ProceduralGeneration folder of this repository to a preferred disk location
-3. Download the assets used for this project from Unreal Engine Marketplace and add them to the project. However, other preferred application-specific assets can be added to this project if required. Note that if an asset is used for object detection, it is required to move its origin to the centre of the object if it is not at the centre. The assets we used include:
+3. Download the assets used for this project from Unreal Engine Marketplace and add them to the project. However, other preferred application-specific assets can be added to this project if required. Note that if an asset is used for object detection, it is required to move its origin to the centre of the object if it is not at the centre yet. The assets we used include:
    * [**4K Materials: Wood Flooring Vol.01**](https://www.unrealengine.com/marketplace/en-US/product/4k-materials-wood-flooring)
    * [**Advanced Glass Material Pack**](https://www.unrealengine.com/marketplace/en-US/product/advanced-glass-material-pack)
    * Assets from project [**Triplex House Villa**](https://www.unrealengine.com/marketplace/en-US/product/big-triplex-house-villa)
