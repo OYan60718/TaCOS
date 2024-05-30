@@ -45,20 +45,6 @@ def get_matched_features(solution_num):
                 if orb_inlier_matches is not None:
                     total_inliers += orb_inlier_matches
 
-                    ret_matches = []
-                    ret_points1, ret_points2 = [], []
-                    for inlier, match in zip(mask, orb_matches):
-                        if inlier[0] > 0:
-                            ret_matches.append(match)
-                            ret_points1.append(kp1[match.queryIdx].pt)
-                            ret_points2.append(kp2[match.trainIdx].pt)
-
-                    img3 = cv2.drawMatches(current_img, kp1, next_img, kp2, ret_matches, None, flags=2)
-                    img3 = cv2.cvtColor(img3, cv2.COLOR_BGR2RGB)
-                    plt.imshow(img3)
-                    plt.axis('off')
-                    plt.show()
-
         average_inliers = total_inliers/(len(train_images)-1)
         average_features = total_features/(len(train_images) - 1)
 
