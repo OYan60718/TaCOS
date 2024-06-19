@@ -74,7 +74,7 @@ class ObjectDetectionTrainer:
         self.model.roi_heads.box_predictor = FastRCNNPredictor(self.in_features, self.num_classes)
 
         # Define the optimizer and learning rate scheduler
-        self.optimizer = torch.optim.AdamW([p for p in self.model.parameters() if p.requires_grad], lr=1e-5, amsgrad=True, weight_decay=1e-6)
+        self.optimizer = torch.optim.Adam([p for p in self.model.parameters() if p.requires_grad], lr=1e-5, amsgrad=True, weight_decay=1e-6)
 
         # and a learning rate scheduler
         self.lr_scheduler = torch.optim.lr_scheduler.StepLR(self.optimizer, step_size=5, gamma=0.5)
