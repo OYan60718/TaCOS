@@ -109,7 +109,7 @@ with socket.socket(socket.AF_INET, socket.SOCK_STREAM) as s:
         inlier_ratio_array = []
         mAP_array = []
         num_generations = 20
-        DetectionTrainer = ObjectDetectionTrainer(8)
+        DetectionTrainer = ObjectDetectionTrainer(10)
         ifSaved = False
 
         for generation in range(num_generations):
