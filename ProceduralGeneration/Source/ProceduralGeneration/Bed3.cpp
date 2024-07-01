@@ -74,7 +74,7 @@ FString ABed3::GetBoundingPointsOnScreen(int ResX, int ResY)
 
 	if (WasComponentRenderedRecently(RenderTime, LampMesh))
 	{
-		BoxPositions += GetBoundingsOnScreen("Lamp", "9", LampMesh, GetWorld(), ResX, ResY);
+		BoxPositions += GetBoundingsOnScreen("Lamp", "8", LampMesh, GetWorld(), ResX, ResY);
 	}
 
 	if (WasComponentRenderedRecently(RenderTime, LampMesh2))
